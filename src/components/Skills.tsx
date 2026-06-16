@@ -16,13 +16,13 @@ export default function Skills() {
     ];
 
     return (
-        <section id="competences" className="py-5 vh-100 bg-dark ">
+        <section id="competences" className="py-5 h-100 bg-dark  ">
             <div className="container mt-5">
                 <div className="text-center text-light mb-5">
                     <h2 className="fw-bold">
                         Mes compétences
                     </h2>
-                    <p className="text-muted text-light">
+                    <p className="text-light">
                         Les Technologies que j'utilise.
                     </p>
                 </div>
@@ -30,8 +30,8 @@ export default function Skills() {
                 <div className="row g-4">
                     {skills.map((skill) => (
                     
-                    <div key={skill} className="col-md-4 col-lg-3">
-                        <div className="card h-100 shadow-sm text-center">
+                    <div key={skill} className="col-4 col-sm-4 col-lg-4">
+                        <div className="card shadow-sm text-center">
                             <div className="card-body">
                                 <h5>{skill}</h5>
                             </div>

@@ -29,7 +29,7 @@ export default function Contact() {
         })
     }
     return (
-        <section id="contact" className="py-5 mt-5 mb-4">
+        <section id="contact" className="py-5 mt-5 mb-4 ">
             <div className="container mt-5">
                 <div className="text-center mb-5 border-bottom">
                     <h2 className="fw-bold">Contact</h2>

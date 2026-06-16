@@ -28,7 +28,7 @@ export default function Projects() {
     ]
     
     return (
-        <section id="projets" className="py-5 min-vh-100">
+        <section id="projets" className="py-5 h-100 bg-secondary">
             <div className="container mt-5">
                 <div className="tex-center mb-4">
                     <h2 className="fw-bold"> Mes Projets </h2>

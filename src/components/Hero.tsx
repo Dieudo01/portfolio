@@ -1,3 +1,4 @@
+// Importation de la LiB pour les Icons React
 import {
   FaGithub,
   FaLinkedinIn,
@@ -7,17 +8,19 @@ import {
 
 } from "react-icons/fa";
 
+// La fonvtion Principale par défault du composant Hero
+
 function Hero() {
   return (
     <section
       id="accueil"
-      className="bg-dark text-white py-5 vh-100 "
+      className="bg-dark text-white py-5 mt-h-100 "
     >
       <div className="container">
-        <div className="row align-items-center mt-5 mb-5">
+        <div className="row align-items-center mb-5 ">
 
           {/* Texte */}
-          <div className="col-lg-7">
+          <div className="col-lg-7 col-sm-12">
 
             <span className="badge bg-secondary mt-3 mb-3 p-2">
               Bienvenue sur mon portfolio 👋
@@ -35,32 +38,33 @@ function Hero() {
             <p className="lead mt-5">
               Je suis développeur web basé en RDC, passionné
               par les solutions Smart City, la cartographie interactive et
-              la création d'applications utiles pour les entreprises et les collectivités.
+              la création d'applications utiles pour les entreprises et les sociétés ansi que le Marketing Digital.
             </p>
 
-            <div className="mt-4">
+            <div className="mt-4 row-2 ">
               <a
                 href="#projets"
-                className="btn btn-primary btn-lg me-3"
+                className="btn btn-primary btn-lg me-3 col"
               >
               
-                Voir mes projets
+                Voir mes projets {"  "}
               <FaLayerGroup /> 
               
               </a>
 
               <a
                 href="#contact"
-                className="btn btn-outline-light btn-lg" >
+                className="btn btn-outline-light btn-lg col" >
                 
                 Me contacter {" "}
              <FaLocationArrow /> 
               </a>
             </div>
 
-            <div className="mt-5 d-flex gap-3">
+            <div className="mt-5 d-flex gap-3 col">
 
               <a
+                title="Lien pourtrouver Dieudonné Basa sur gitHub"
                 href="#"
                 className="btn btn-outline-light rounded-square"
               >
@@ -68,13 +72,15 @@ function Hero() {
               </a>
 
               <a
-                href="#"
+              title="Lien pour trouver Dieudonné BASA sur Linkdin"
+                href="www.linkdin.com/in/dieudobasa"
                 className="btn btn-outline-light rounded-square"
               >
                 <FaLinkedinIn />
               </a>
 
-              <a href="mailto:dieudobasa7@gmail.com" className="btn btn-outline-light rounded-square " >
+              <a title="Lien pour Envoyer un E-mail à Dieudo basa"
+                href="mailto:dieudobasa7@gmail.com" className="btn btn-outline-light rounded-square " >
                 <FaEnvelope />
               </a>
 
@@ -86,6 +92,7 @@ function Hero() {
           <div className="col-lg-5 text-center mt-5 mt-lg-0">
 
             <img
+              
               src="/bg-ir.webp"
               alt="Photo de profil"
               className="img-fluid rounded-circle shadow"
