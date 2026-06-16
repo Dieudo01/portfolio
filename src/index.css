@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0f172a;
+  /* overflow: hidden; */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.btn {
+  border-radius: 12px;
+}
+
+img {
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.03);
+}
